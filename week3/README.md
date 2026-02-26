@@ -1,3 +1,4 @@
+ Proyecto week3 : Sistema Contable para PYMEs Jean Ojeda
 📋 Descripción
 Aplicación web para gestionar registros contables de una pequeña o mediana empresa (PYME).
 
