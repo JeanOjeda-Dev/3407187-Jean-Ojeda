@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mantenimiento de Registros</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="main-container">
+<!-- HEADER -->
+<header class="header">
+<h1>MANTENIMIENTO DE REGISTROS</h1>
+<button onclick="toggleTheme()" class="theme-btn">🌙</button>
+</header>
+<!-- CONTENIDO PRINCIPAL -->
+<div class="content">
+<!-- PANEL IZQUIERDO -->
+<section class="left-panel">
+<h2>📋 Libro de registros</h2>
+<div id="item-list"></div>
+</section>
+<!-- PANEL DERECHO -->
+<section class="right-panel">
+<!-- FORMULARIO -->
+<div class="card">
+<h3>Nueva inscripción</h3>
+<form id="item-form">
+<input id="item-name" placeholder="Nombre" required>
+<textarea id="item-description" placeholder="Descripción"></textarea>
+<select id="item-category">
+<option>Ingreso</option>
+<option>Gasto</option>
+</select>
+<select id="item-priority">
+<option>Baja</option>
+<option>Media</option>
+<option>Alta</option>
+</select>
+<button>Guardar</button>
+</form>
+</div>
+<!-- ESTADISTICAS -->
+<div class="card">
+<h3>Estadísticas</h3>
+<p>Total: <span id="stat-total">0</span></p>
+<p>Activos: <span id="stat-active">0</span></p>
+<p>Inactivos: <span id="stat-inactive">0</span></p>
+</div>
+</section>
+</div>
+</div>
+<script src="starter/script.js"></script>
+</body>
+</html>

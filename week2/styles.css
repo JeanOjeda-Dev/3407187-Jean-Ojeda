@@ -1,0 +1,335 @@
+/* ===== RESET ===== */
+
+*{
+
+margin:0;
+
+padding:0;
+
+box-sizing:border-box;
+
+font-family:Segoe UI, Arial;
+
+}
+
+
+
+/* ===== BODY ===== */
+
+body{
+
+background:#f4f6f9;
+
+color:#333;
+
+}
+
+
+
+/* ===== HEADER ===== */
+
+.header{
+
+background:white;
+
+padding:20px;
+
+border-bottom:4px solid rgb(0, 170, 255);
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+}
+
+
+
+.header h1{
+
+font-size:22px;
+
+font-weight:bold;
+
+}
+
+
+
+.theme-btn{
+
+background:#111;
+
+color:white;
+
+border:none;
+
+padding:10px;
+
+border-radius:6px;
+
+cursor:pointer;
+
+}
+
+
+
+/* ===== CONTENEDOR ===== */
+
+.content{
+
+display:flex;
+
+gap:20px;
+
+padding:20px;
+
+}
+
+
+
+/* ===== PANEL IZQUIERDO ===== */
+
+.left-panel{
+
+flex:2;
+
+background:white;
+
+padding:20px;
+
+border-radius:8px;
+
+border:1px solid #ddd;
+
+}
+
+
+
+.left-panel h2{
+
+margin-bottom:15px;
+
+color:rgb(0, 170, 255);
+
+}
+
+
+
+/* ===== PANEL DERECHO ===== */
+
+.right-panel{
+
+flex:1;
+
+display:flex;
+
+flex-direction:column;
+
+gap:20px;
+
+}
+
+
+
+/* ===== TARJETAS ===== */
+
+.card{
+
+background:white;
+
+padding:20px;
+
+border-radius:8px;
+
+border:1px solid #ddd;
+
+}
+
+
+
+.card h3{
+
+margin-bottom:15px;
+
+color:rgb(0, 170, 255);
+
+}
+
+
+
+/* ===== INPUTS ===== */
+
+input,
+
+textarea,
+
+select{
+
+width:100%;
+
+padding:10px;
+
+margin-bottom:10px;
+
+border:1px solid #ccc;
+
+border-radius:5px;
+
+}
+
+
+
+textarea{
+
+height:60px;
+
+resize:none;
+
+}
+
+
+
+/* ===== BOTON PRINCIPAL ===== */
+
+button{
+
+padding:10px;
+
+border:none;
+
+border-radius:5px;
+
+cursor:pointer;
+
+}
+
+
+
+form button{
+
+background:rgb(0, 170, 255);
+
+color:white;
+
+font-weight:bold;
+
+}
+
+
+
+/* ===== ITEMS ===== */
+
+.task-item{
+
+padding:15px;
+
+border-bottom:1px dashed #ccc;
+
+}
+
+
+
+.task-item h3{
+
+margin-bottom:5px;
+
+}
+
+
+
+.task-item p{
+
+margin-bottom:5px;
+
+}
+
+
+
+/* BOTONES ITEM */
+
+.activate{
+
+background:#11ba1a;
+
+color:white;
+
+margin-right:5px;
+
+}
+
+
+
+.edit{
+
+background:#2596f9;
+
+color:white;
+
+margin-right:5px;
+
+}
+
+
+
+.delete{
+
+background:red;
+
+color:white;
+
+}
+
+
+
+/* ===== ESTADISTICAS ===== */
+
+.card span{
+
+font-weight:bold;
+
+color:rgb(0, 170, 255);
+
+}
+
+
+
+/* ===== DARK MODE ===== */
+
+.dark{
+
+background:#0f172a;
+
+color:white;
+
+}
+
+
+
+.dark .card,
+
+.dark .left-panel,
+
+.dark .header{
+
+background:#1e293b;
+
+border:none;
+
+}
+
+
+
+.dark input,
+
+.dark textarea,
+
+.dark select{
+
+background:#334155;
+
+color:white;
+
+border:none;
+
+}

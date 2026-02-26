@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema Contable PYMEs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header">
+    <h1>Sistema Contable PYMEs</h1>
+    <button id="themeButton" class="theme-button">🌙</button>
+</header>
+
+<div class="main-container">
+    <section class="left-panel">
+        <input id="searchInput" placeholder="🔍 Buscar por nombre..." style="width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #334155; background: #0f172a; color: white; margin-bottom: 20px;">
+        <h2>📒 Libro de registros</h2>
+        <div id="record-container"></div>
+    </section>
+
+    <section class="right-panel">
+        <div class="card">
+            <h3>Nueva inscripción</h3>
+            <input id="nameInput" placeholder="Nombre">
+            <input id="locationInput" placeholder="Ubicación">
+            <input id="amountInput" placeholder="Monto">
+            <button id="createRecordButton">GUARDAR</button>
+        </div>
+
+        <div class="card">
+            <h3>Estadísticas</h3>
+            <p>Total registros: <span id="total-records">0</span></p>
+            <p>Total transacciones: <span id="total-transactions">0</span></p>
+        </div>
+
+        <div class="card" style="text-align: center;">
+            <img src="https://cdn-icons-png.flaticon.com/512/2489/2489756.png" style="width: 80%; filter: drop-shadow(0 0 10px #22c55e);">
+        </div>
+    </section>
+</div>
+
+<script src="starter/script.js"></script>
+</body>
+</html>

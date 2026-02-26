@@ -1,0 +1,263 @@
+/* ========================================
+
+ESTILOS GENERALES Y ANIMACIONES
+
+======================================== */
+
+body {
+
+    font-family: 'Segoe UI', Arial, sans-serif;
+
+    margin: 0;
+
+    background: linear-gradient(90deg, #0f172a, #020617);
+
+    color: white;
+
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+
+
+@keyframes slideIn {
+
+    from { opacity: 0; transform: translateY(20px); }
+
+    to { opacity: 1; transform: translateY(0); }
+
+}
+
+
+
+.fade-in {
+
+    animation: slideIn 0.4s ease-out forwards;
+
+}
+
+
+
+/* ========================================
+
+HEADER Y BOTÓN TEMA
+
+======================================== */
+
+.header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 20px 40px;
+
+    background: #020617;
+
+    border-bottom: 1px solid #1e293b;
+
+}
+
+
+
+.theme-button {
+
+    background: #1e293b;
+
+    color: white;
+
+    border: 1px solid #334155;
+
+    padding: 10px 15px;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    font-size: 20px;
+
+}
+
+
+
+/* ========================================
+
+CONTENEDOR Y PANELES
+
+======================================== */
+
+.main-container {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 30px;
+
+    padding: 30px;
+
+    flex-wrap: wrap;
+
+}
+
+
+
+.left-panel, .card {
+
+    background: #1e293b;
+
+    padding: 25px;
+
+    border-radius: 16px;
+
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+
+}
+
+
+
+.left-panel { width: 600px; }
+
+.right-panel { width: 320px; display: flex; flex-direction: column; gap: 20px; }
+
+
+
+/* ========================================
+
+INPUTS Y BOTONES PRINCIPALES
+
+======================================== */
+
+input {
+
+    width: 100%;
+
+    padding: 12px;
+
+    margin: 10px 0;
+
+    border-radius: 8px;
+
+    border: 1px solid #334155;
+
+    background: #0f172a;
+
+    color: white;
+
+    box-sizing: border-box;
+
+}
+
+
+
+button#createRecordButton {
+
+    width: 100%;
+
+    background: #22c55e;
+
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+    padding: 12px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+}
+
+
+
+/* ========================================
+
+REGISTROS Y BOTONES ESTÉTICOS
+
+======================================== */
+
+.record {
+
+    background: #020617;
+
+    padding: 15px;
+
+    margin-top: 12px;
+
+    border-radius: 10px;
+
+    display: flex;             /* Alineación horizontal */
+
+    justify-content: space-between; 
+
+    align-items: center;
+
+    border: 1px solid #1e293b;
+
+}
+
+
+
+.record-info b { color: #22c55e; font-size: 1.1rem; }
+
+
+
+.actions {
+
+    display: flex;
+
+    gap: 8px;
+
+}
+
+.btn-edit { 
+    background: #3b82f6 !important; 
+    color: white; 
+    padding: 8px 12px; 
+    border-radius: 6px; 
+    border: none; 
+    cursor: pointer;
+}
+
+.btn-delete { 
+    background: #ef4444 !important; 
+    color: white; 
+    padding: 8px 12px; 
+    border-radius: 6px; 
+    border: none; 
+    cursor: pointer;
+}
+
+.actions {
+    display: flex;
+    gap: 8px;
+}
+
+
+body.light {
+    background: #f8fafc !important;
+    color: #1e293b !important;
+}
+
+body.light .header, 
+body.light .left-panel, 
+body.light .card {
+    background: white !important;
+    color: #1e293b !important;
+    border: 1px solid #e2e8f0 !important;
+}
+
+body.light .record {
+    background: #f1f5f9 !important;
+    border: 1px solid #e2e8f0 !important;
+}
+
+body.light input {
+    background: #f8fafc !important;
+    color: #1e293b !important;
+    border: 1px solid #cbd5e1 !important;
+}
