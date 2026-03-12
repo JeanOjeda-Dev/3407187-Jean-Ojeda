@@ -1,8 +1,7 @@
 // FICHA DE REGISTRO - APP CONTABILIDAD PYMES       
 // Nombre del estudiante: Jean Ojeda Rangel
 // --- SECCIÓN 1 ---
-// Declare las variables con const y let según 
-// su naturaleza const para valores fijos, let para valores cambiantes.
+// Declare las variables con const y let según su naturaleza const para valores fijos, let para valores cambiantes.
 // Usamos camelCase para nombres de variables y UPPER_SNAKE_CASE para constantes de configuración
 // Variables con const (valores que no cambian) 
 
@@ -10,7 +9,7 @@
 // const se usa porque este valor no cambiará durante la ejecución
 const appName = "App Contabilidad PYMES";
 
-// String: Categoría del software
+// String: Categoría del software 
 // Este valor es fijo, por eso se declara como const   
 const softwareCategory = "Software - Contabilidad Empresarial";
 
