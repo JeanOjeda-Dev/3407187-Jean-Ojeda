@@ -1,260 +1,50 @@
-📦 Proyecto week2 : Sistema Contable para PYMEs Jean Ojeda
+## 📊 APP CONTABILIDAD PYMEs - Proyecto Semana 02
 
-🎯 ÚNICO ENTREGABLE: Este proyecto es el único entregable obligatorio para aprobar la semana.
+**Sistema de Gestión Financiera Integral para el Sector Empresarial**
 
----
-
-🏛️ Política de Dominios Únicos
-
-Mi dominio asignado por el instructor es: App de contabilidad para PYMEs
-
-🧾 Sistema Contable para PYMEs
-
-Este proyecto fue implementado completamente dentro de este contexto.
+Este proyecto constituye el único entregable obligatorio de la **Semana 02** del programa ADSO. Consiste en una ficha de datos técnica ejecutada en consola, diseñada para centralizar y automatizar los procesos contables de pequeñas y medianas empresas, aplicando fundamentos de **JavaScript ES2023**.
 
 ---
 
-¿Por qué dominios únicos?
+## 🛠️ Especificaciones de Desarrollo (Requisitos Cumplidos)
 
-Previene copia entre compañeros  
-Fomenta implementaciones originales  
-Desarrolla capacidad de abstracción  
-Aplica conceptos generales a contextos específicos  
+El núcleo del sistema ha sido construido bajo los estándares solicitados por el instructor, aplicando los siguientes conceptos técnicos:
 
----
+* **Tipos de Datos Primitivos:** Implementación estricta de variables tipo `String`, `Number`, `Boolean` y el valor especial `null` para representar la ausencia de datos (ej. Patrocinador no asignado).
+* **Nomenclatura Estándar:** * **camelCase:** Para variables dinámicas y descriptivas (ej. `registeredUsers`).
+* **UPPER_SNAKE_CASE:** Para constantes de configuración global del sistema (ej. `BASE_PRICE`, `MAX_USERS`).
 
-🎯 Objetivos del Proyecto
 
-Construir una aplicación completa de gestión contable que consolide todos los conceptos aprendidos en Week-02:
-
-✅ Spread & Rest operators  
-✅ Default parameters  
-✅ Array methods (map, filter, reduce, find)  
-✅ Object enhancements  
-✅ Manipulación del DOM  
-✅ LocalStorage para persistencia  
-✅ Inmutabilidad y programación funcional  
+* **Verificación de Tipos:** Uso sistemático del operador `typeof` para garantizar la integridad de las variables en la consola.
+* **Conversiones Explícitas:** Demostración de cambio de tipos mediante los métodos `Number()`, `String()` y `Boolean()`.
+* **Legibilidad de Datos:** Uso de *numeric separators* (`_`) en constantes numéricas de gran escala para facilitar la auditoría del código.
 
 ---
 
-📋 Descripción
+## 📈 Ficha Técnica del Dominio
 
-Aplicación web para gestionar registros contables de una pequeña o mediana empresa (PYME).
-
-Permite registrar:
-
-💰 Ingresos  
-💸 Gastos  
-📄 Facturas  
-🏛️ Impuestos  
-
----
-
-Funcionalidades Principales
-
-✔ Crear registros contables  
-✔ Listar registros  
-✔ Editar registros  
-✔ Eliminar registros  
-✔ Marcar como activo/inactivo  
-✔ Filtrar por categoría  
-✔ Filtrar por prioridad  
-✔ Buscar registros  
-✔ Ver estadísticas  
-✔ Guardar datos en LocalStorage  
+| Característica | Detalle |
+| --- | --- |
+| **Dominio Asignado** | Contabilidad para PYMEs |
+| **Entidad** | Aplicación de Software |
+| **Módulos Totales** | 8 Módulos Funcionales |
+| **Identificador** | ACC-PYME-2024 |
+| **Tecnología** | JavaScript (Node.js) |
 
 ---
 
-Características Técnicas
+## 🚀 Funcionalidades Evaluadas en el Script
 
-✔ JavaScript puro (ES2023)  
-✔ No se usaron frameworks  
-✔ Uso de programación funcional  
-✔ Uso de inmutabilidad  
-✔ Uso de métodos de arrays  
-✔ Uso de Spread Operator  
+1. **Ficha de Registro Automática:** Generación de un reporte visual en consola con el estado actual del software.
+2. **Lógica de Estados (Booleanos):** Uso de prefijos semánticos (`is`, `has`, `can`) para el control de operatividad y soporte técnico.
+3. **Actualización Dinámica:** Demostración del uso de `let` para variables que cambian, como el conteo de usuarios y empresas registradas.
+4. **Validación de Nulos:** Manejo profesional de datos no asignados mediante la comparación estricta `=== null`.
 
 ---
-
-💡 Adaptación al Dominio Contable
-
-Concepto Genérico → Adaptación Contable
-
-Elemento → Movimiento Contable  
-
-Propiedades:
-
-name → Nombre del movimiento  
-description → Descripción  
-category → Tipo (Ingreso, Gasto, Factura, Impuesto)  
-priority → Prioridad  
-active → Activo / Inactivo  
-createdAt → Fecha  
-
----
-
-🏗️ Estructura del Proyecto
-
-
-3-proyecto/
-│
-├── README.md
-│
-├── index.html
-│
-├── styles.css
-│
-└── script.js
-
-
----
-
-📝 Modelo de Datos
-
-Ejemplo de un registro contable:
-
-```js
-
-{
-
-id: 173445353535,
-
-name: "Pago de cliente",
-
-description: "Pago por servicio web",
-
-active: true,
-
-priority: "high",
-
-category: "income",
-
-createdAt: "2026-02-17",
-
-updatedAt: null
-
-}
-
-
-🔧 Funciones Implementadas
-
-Persistencia
-
-loadItems() → Carga datos
-
-saveItems() → Guarda datos
-
-CRUD
-
-createItem() → Crear
-
-updateItem() → Actualizar
-
-deleteItem() → Eliminar
-
-toggleItemActive() → Activar / Desactivar
-
-Filtros
-
-filterByStatus()
-
-filterByCategory()
-
-filterByPriority()
-
-searchItems()
-
-Estadísticas
-
-getStats()
-
-renderStats()
-
-🎨 Interfaz de Usuario
-
-La aplicación tiene:
-
-Header:
-
-Título
-Estadísticas
-
-Formulario:
-
-Crear registros
-
-Lista:
-
-Mostrar registros
-
-Estadísticas:
-
-Total
-Activos
-Inactivos
-
-Estados Visuales
-
-Activo → Normal
-
-Inactivo → Opacidad reducida
-
-Categorías:
-
-💰 Ingreso
-
-💸 Gasto
-
-📄 Factura
-
-🏛️ Impuesto
-
-✅ Criterios Cumplidos
-
-Funcionalidad
-
-✔ Crear registros
-
-✔ Editar
-
-✔ Eliminar
-
-✔ Activar / Desactivar
-
-✔ Filtrar
-
-✔ Buscar
-
-Código
-
-✔ Spread Operator
-
-✔ Map
-
-✔ Filter
-
-✔ Reduce
-
-✔ Inmutabilidad
-
-Persistencia
-
-✔ LocalStorage
-
-✔ Estadísticas
-
-✔ Interfaz funcional
-
-🚀 Cómo Funciona
-
-El usuario:
-
-Ingresa datos
-
-Se crea un objeto
-
-Se guarda en LocalStorage
-
-Se muestra en pantalla
-
-Se actualizan estadísticas
+## 👤 Información del Aprendiz
+
+* **Estudiante:** Jean Ojeda Rangel
+* **Instructor:** Erick Granados Torres
+* **Programa:** Análisis y Desarrollo de Software (ADSO)
+* **Ficha:** 3407187
+* **Sede:** SENA 
