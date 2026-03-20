@@ -1,4 +1,4 @@
-## 📊 APP CONTABILIDAD PYMEs - week2
+## 📊 APP CONTABILIDAD PYMEs - week-02
 
 **Sistema de Gestión Financiera Integral para el Sector Empresarial**
 
