@@ -6,6 +6,7 @@ Este proyecto constituye el único entregable obligatorio de la **Semana 04** de
 
 ---
 
+
 ## 🛠️ Especificaciones de Desarrollo (Requisitos Cumplidos)
 
 El sistema ha sido actualizado integrando los conceptos técnicos de procesamiento de cadenas de texto solicitados por el instructor:

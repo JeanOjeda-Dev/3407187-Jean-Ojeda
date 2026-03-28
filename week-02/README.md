@@ -6,6 +6,7 @@ Este proyecto constituye el único entregable obligatorio de la **Semana 02** de
 
 ---
 
+
 ## 🛠️ Especificaciones de Desarrollo (Requisitos Cumplidos)
 
 El núcleo del sistema ha sido construido bajo los estándares solicitados por el instructor, aplicando los siguientes conceptos técnicos:
