@@ -1,7 +1,6 @@
 // ==========================================
 // APRENDIZ: Jean Ojeda Rangel
 // DOMINIO: APP CONTABILIDAD PYMES
-// PROYECTO: CLASIFICADOR SEMANA 05 (ACTUALIZADO)
 // ==========================================
 
 "use strict"; // use strict activa el modo estricto de JavaScript, lo que ayuda a prevenir errores comunes 
